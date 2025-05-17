@@ -1,5 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ page import="com.app.parking.model.ParkingTransaction" %>
+<%@ page import="lk.sliit.parkingsystem.parkingsystem.model.ParkingTransaction" %>
 <%@ page import="java.util.List" %>
 <%
     List<ParkingTransaction> transactions = (List<ParkingTransaction>) request.getAttribute("transactions");
