@@ -1,0 +1,10 @@
+/* feedback-form.css */
+
+/* Smooth scrollbar for text area */
+textarea::-webkit-scrollbar {
+    width: 8px;
+}
+textarea::-webkit-scrollbar-thumb {
+    background-color: #cbd5e1;
+    border-radius: 10px;
+}
