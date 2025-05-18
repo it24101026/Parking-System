@@ -1,7 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ page import="com.app.parking.model.User" %>
-<%@ page import="com.app.parking.model.Vehicle" %>
-<%@ page import="com.app.parking.model.ParkingSlot" %>
+<%@ page import="lk.sliit.parkingsystem.parkingsystem.model.User" %>
+<%@ page import="lk.sliit.parkingsystem.parkingsystem.model.Vehicle" %>
+<%@ page import="lk.sliit.parkingsystem.parkingsystem.model.ParkingSlot" %>
 <%@ page import="java.util.List" %>
 <%
     User user = (User) session.getAttribute("user");
