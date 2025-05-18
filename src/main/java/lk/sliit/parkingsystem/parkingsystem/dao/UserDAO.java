@@ -1,7 +1,7 @@
 package lk.sliit.parkingsystem.parkingsystem.dao;
 
-import com.app.parking.model.User;
-import com.app.parking.model.Admin;
+import lk.sliit.parkingsystem.parkingsystem.model.User;
+import lk.sliit.parkingsystem.parkingsystem.model.Admin;
 import java.io.*;
 import java.nio.file.*;
 import java.util.*;
