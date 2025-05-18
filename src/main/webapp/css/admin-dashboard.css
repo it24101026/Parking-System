@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f6f9fc;
+    color: #333;
+}
+
+.topbar {
+    background-color: #1f49d9;
+    color: #fff;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.logo i {
+    margin-right: 8px;
+}
+
+.topnav a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.topnav a:hover {
+    color: #ffdd57;
+}
+
+.dashboard-main {
+    padding: 40px 30px;
+    text-align: center;
+}
+
+.dashboard-main h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.dashboard-subtext {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 30px 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s;
+    text-align: center;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-icon {
+    font-size: 40px;
+    color: #1f49d9;
+    margin-bottom: 15px;
+}
+
+.card h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.manage-link {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #1f49d9;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.manage-link:hover {
+    background-color: #163bb8;
+}
