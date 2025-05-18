@@ -1,8 +1,8 @@
 package lk.sliit.parkingsystem.parkingsystem.controller;
 
-import com.app.parking.dao.UserDAO;
-import com.app.parking.model.User;
-import com.app.parking.model.Admin;
+import lk.sliit.parkingsystem.parkingsystem.dao.UserDAO;
+import lk.sliit.parkingsystem.parkingsystem.model.User;
+import lk.sliit.parkingsystem.parkingsystem.model.Admin;
 import jakarta.servlet.*;
 import jakarta.servlet.http.*;
 import jakarta.servlet.annotation.*;
