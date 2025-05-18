@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Animations */
+@layer utilities {
+    .animate-fadeInDown {
+        animation: fadeInDown 1s ease-out forwards;
+    }
+
+    .animate-fadeInSlow {
+        animation: fadeIn 1.5s ease-out forwards;
+    }
+
+    @keyframes fadeInDown {
+        from { opacity: 0; transform: translateY(-20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+}
+
+/* Dashboard Cards */
+.dashboard-cards {
+    @apply max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-6;
+}
+.dashboard-card {
+    @apply p-6 rounded-xl shadow-lg text-white text-center transform transition-transform duration-500 hover:scale-105;
+}
+.dashboard-card h2 {
+    @apply text-2xl font-semibold;
+}
+.dashboard-card .stat-number {
+    @apply text-5xl font-bold my-2;
+}
+.dashboard-card a {
+    @apply mt-4 inline-block w-full py-2 bg-black/10 rounded-md hover:bg-black/20 transition duration-300;
+}
+
+/* Alerts */
+.alert {
+    @apply max-w-7xl mx-auto mb-6 p-4 border-l-4 rounded-md;
+}
+.alert.error {
+    @apply bg-red-100 border-red-500 text-red-700;
+}
+.alert.success {
+    @apply bg-green-100 border-green-500 text-green-700;
+}
+
+/* Feedback Section */
+.feedback-section {
+    @apply max-w-7xl mx-auto mt-6 grid grid-cols-1 md:grid-cols-2 gap-6;
+}
+.feedback-card {
+    @apply bg-white p-6 rounded-lg shadow-lg text-center hover:shadow-xl transition duration-300;
+}
+.feedback-card h3 {
+    @apply text-xl font-semibold text-gray-800;
+}
+.feedback-card p {
+    @apply text-sm text-gray-500 mb-4;
+}
+.feedback-card a {
+    @apply inline-block py-2 px-4 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition duration-300;
+}

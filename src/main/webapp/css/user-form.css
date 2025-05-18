@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body.bg-overlay-img {
+    background-image: url('background.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.input-label {
+    @apply block text-sm font-semibold text-gray-700 mb-1;
+}
+
+.input-field {
+    @apply w-full px-4 py-2 rounded-lg border border-gray-300 shadow-sm focus:ring-2 focus:ring-blue-400 focus:outline-none transition duration-300;
+}
+
+.submit-button {
+    @apply bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 transition duration-300;
+}
+
+.alert {
+    @apply flex items-center bg-red-100 border-l-4 border-red-500 text-red-700 px-4 py-3 rounded shadow-sm;
+}
+
+/* Animations */
+@keyframes fadeSlideDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.animate-fadeSlideDown {
+    animation: fadeSlideDown 0.7s ease-out forwards;
+}
+
+.animate-fadeIn {
+    animation: fadeIn 0.5s ease-out forwards;
+}
