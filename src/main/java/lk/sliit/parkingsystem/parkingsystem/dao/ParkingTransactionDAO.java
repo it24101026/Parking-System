@@ -1,10 +1,10 @@
-package lk.sliit.parkingsystem.parkingsystem.controller.parkingTransaction.parkingTransaction;
+package lk.sliit.parkingsystem.parkingsystem.dao;
 
 public class DAO {
-package com.app.parking.controller;
+package lk.sliit.parkingsystem.parkingsystem.controller;
 
-import com.app.parking.dao.*;
-import com.app.parking.model.*;
+import lk.sliit.parkingsystem.parkingsystem.dao.*;
+import lk.sliit.parkingsystem.parkingsystem.model.*;
 import jakarta.servlet.*;
 import jakarta.servlet.http.*;
 import jakarta.servlet.annotation.*;
@@ -138,3 +138,4 @@ import java.time.LocalDateTime;
         }
     }
 }
+
