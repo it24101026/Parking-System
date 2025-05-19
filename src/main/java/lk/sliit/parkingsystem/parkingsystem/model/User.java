@@ -2,7 +2,7 @@ package lk.sliit.parkingsystem.parkingsystem.model;
 
 import java.util.UUID;
 
-public class User {
+public class  User {
     protected String id;
     protected String username;
     protected String password;
