@@ -4,41 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0fffc905-c86d-4b8c-98fd-a047e70aec80" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Parking-System/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Parking-System/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Parking-System/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Parking-System/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Parking-System/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Parking-System/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Parking-System/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Parking-System/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Parking-System/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com.app.parking/dao/FeedbackDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com.app.parking/dao/ParkingSlotDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com.app.parking/dao/ParkingTransactionDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com.app.parking/dao/UserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com.app.parking/dao/VehicleDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com.app.parking/model/feedback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com.app.parking/model/supportTicket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com.app.parking/util/UserUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/FeedbackAdmin.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/FeedbackForm.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/FeedbackForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/FeedbackHistory.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/FeedbackManagement.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Parking-System/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/sliit/parkingsystem/parkingsystem/HelloServlet.java" beforeDir="false" />
-    </list>
+    <list default="true" id="0fffc905-c86d-4b8c-98fd-a047e70aec80" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,6 +31,9 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2xGLkmGD3WwsbuTZNZO9KmGFWWE" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
