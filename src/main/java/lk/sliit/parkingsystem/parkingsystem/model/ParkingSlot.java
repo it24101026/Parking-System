@@ -49,6 +49,7 @@ public class ParkingSlot {
         );
     }
 
+
     public static ParkingSlot fromString(String str) {
         String[] parts = str.split(",");
         if (parts.length != 5) return null;
