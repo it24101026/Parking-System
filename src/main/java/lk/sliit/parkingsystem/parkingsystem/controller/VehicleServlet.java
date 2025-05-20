@@ -1,22 +1,4 @@
-/* Animations */
-@keyframes fadeIn {
-    from { opacity: 0; transform: translateY(10px); }
-    to { opacity: 1; transform: translateY(0); }
-}
-
-@keyframes fadeInDown {
-    from { opacity: 0; transform: translateY(-10px); }
-    to { opacity: 1; transform: translateY(0); }
-}
-
-@keyframes fadeInUp {
-    from { opacity: 0; transform: translateY(20px); }
-    to { opacity: 1; transform: translateY(0); }
-}
-
-.animate-fadeIn {
-    animation: fadeIn 0.8s ease-in-out;
-}package com.app.parking.controller;
+package com.app.parking.controller;
 
 import com.app.parking.dao.VehicleDAO;
 import com.app.parking.model.*;
@@ -164,52 +146,6 @@ public class VehicleServlet extends HttpServlet {
     }
 }
 
-.animate-fadeInDown {
-    animation: fadeInDown 0.6s ease-in-out;
-}
 
-.animate-fadeInUp {
-    animation: fadeInUp 0.7s ease-out;
-}
+ 
 
-.animate-slideIn {
-    animation: fadeIn 1s ease-in-out;
-}
-
-/* Alerts */
-.alert {
-    max-width: 720px;
-    margin: 1rem auto;
-    padding: 1rem;
-    border-radius: 0.5rem;
-    font-weight: 500;
-}
-.alert.error {
-    background-color: #fee2e2;
-    border-left: 4px solid #dc2626;
-    color: #991b1b;
-}
-.alert.success {
-    background-color: #d1fae5;
-    border-left: 4px solid #059669;
-    color: #065f46;
-}
-
-/* Buttons */
-.btn-primary {
-    @apply inline-flex items-center px-4 py-2 text-white bg-blue-600 hover:bg-blue-700 font-medium rounded-md transition duration-200;
-}
-.btn-warning {
-    @apply px-3 py-2 bg-yellow-500 hover:bg-yellow-600 text-white text-sm rounded-md shadow;
-}
-.btn-danger {
-    @apply px-3 py-2 bg-red-500 hover:bg-red-600 text-white text-sm rounded-md shadow;
-}
-
-/* Table */
-.th {
-    @apply px-4 py-3 text-xs font-bold text-gray-600 uppercase tracking-wider;
-}
-.td {
-    @apply px-4 py-4 text-sm text-gray-700;
-}
