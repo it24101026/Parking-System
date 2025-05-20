@@ -1,6 +1,6 @@
 package lk.sliit.parkingsystem.parkingsystem.dao;
 
-import com.app.parking.model.ParkingSlot;
+import lk.sliit.parkingsystem.parkingsystem.model.ParkingSlot;
 import java.io.*;
 import java.nio.file.*;
 import java.util.*;
@@ -68,7 +68,7 @@ public class ParkingSlotDAO {
                 .collect(Collectors.toList());
     }
 
-    // Sort parking slots by availability using Quick Sort
+    // Sort parking slots by availability using Quick Sort //DSA part
     public List<ParkingSlot> getParkingSlotsSortedByAvailability() {
         List<ParkingSlot> slots = getAllParkingSlots();
         quickSort(slots, 0, slots.size() - 1);
