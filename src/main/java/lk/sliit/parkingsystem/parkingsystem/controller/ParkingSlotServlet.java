@@ -1,17 +1,18 @@
 package lk.sliit.parkingsystem.parkingsystem.controller;
 
-import com.app.parking.dao.ParkingSlotDAO;
-import com.app.parking.dao.ParkingTransactionDAO;
-import com.app.parking.dao.VehicleDAO;
-import com.app.parking.model.ParkingSlot;
-import com.app.parking.model.ParkingTransaction;
-import com.app.parking.model.User;
-import com.app.parking.model.Vehicle;
+import lk.sliit.parkingsystem.parkingsystem.dao.ParkingSlotDAO;
+import lk.sliit.parkingsystem.parkingsystem.dao.ParkingTransactionDAO;
+import lk.sliit.parkingsystem.parkingsystem.dao.VehicleDAO;
+import lk.sliit.parkingsystem.parkingsystem.model.ParkingSlot;
+import lk.sliit.parkingsystem.parkingsystem.model.ParkingTransaction;
+import lk.sliit.parkingsystem.parkingsystem.model.User;
+import lk.sliit.parkingsystem.parkingsystem.model.Vehicle;
 import jakarta.servlet.*;
 import jakarta.servlet.http.*;
 import jakarta.servlet.annotation.*;
 
 import java.io.IOException;
+
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.stream.Collectors;
